@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: grid;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  background-color: rgb(214, 197, 175);
+  width: 500px;
+  gap: 20px;
+  border-radius: 10px;
+  color: black;
+}
+#h {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 10px;
+}
+#f {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 5%;
+  background-color: black;
+  gap: 20px;
+  border-radius: 15px;
+  color: white;
+  margin: 30px;
+}
+.drop-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.select-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rate {
+  border-radius: 6px;
+  padding: 6px;
+}
+.btn {
+  border-radius: 6px;
+  padding: 8px;
+  width: 60%;
+  background-color: rgb(87, 197, 197);
+  border: none;
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+.select-box select::-webkit-scrollbar {
+  width: 8px;
+}
+
+footer {
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 30px;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+nav li a:hover {
+  text-decoration: none;
+  color: rgb(77, 69, 12);
+  transition: 0.4s;
+  font-size: 20px;
+}
+footer:hover {
+  transition: 0.8s;
+  color: black;
+  background-color: white;
+  margin: 20px;
+  border-radius: 20px;
+}
+.btn:hover {
+  transition: 0.4s;
+  background-color: white;
+  color: rgb(230, 17, 17);
+  margin: 10px 10px;
+}
+.icon:hover {
+  transition: 0.4s;
+  font-size: 20px;
+  color: white;
+}
+.select-box{
+  gap: 10px;
+}
+.amt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="home">Home</a></li>
+      <li><a href="about us">About Us</a></li>
+      <li><a href="contact">Contact</a></li>
+      <li><a href="services">Services</a></li>
+    </ul>
+  </nav>
+
+  <div class="wrapper">
+    <header id="h">Currency Converter</header>
+    <form action="#" id="f">
+      <div class="amt">
+        <p>Enter amount</p>
+        <input type="number" class="input" value="1" />
+      </div>
+
+      <div class="drop-list">
+
+        <div class="from">
+          <p>From</p>
+          <div class="select-box">
+            <img class="flags" src="https://flagsapi.com/NP/flat/32.png" alt="flag">
+            <select name="" class="currency">
+              <option value="USD">NPR</option>
+              <!-- <option value="INR">USD</option> -->
+              <!-- <option></option> -->
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+
+      <div class="to">
+        <p>To</p>
+        <div class="select-box">
+          <img class="flags" src="https://flagsapi.com/US/flat/32.png" alt="flag">
+          <select name="" class="currency">
+            <!-- <option value="USD">NPR</option> -->
+            <option value="INR">USD</option>
+            <!-- <option></option> -->
+          </select>
+        </div>
+      </div>
+
+      <div class="change_rate">Getting exchange rate..</div>
+      <button class="btn">Get Exchange</button>
+  </div>
+  </form>
+  </div>
+
+  <footer>Copyright &copy; All rights reserved</footer>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/c4c41a2319.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
